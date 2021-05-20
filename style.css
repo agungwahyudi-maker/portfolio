@@ -1,0 +1,30 @@
+.jumbotron {
+  color: #ff8f8fde;
+  text-align: center;
+  background-color: #ff8f8f1f;
+  padding-bottom: 100px;
+  padding-top: 200px;
+}
+.jumbotron img {
+  width: 200px;
+  box-shadow: 0px 0px 10px black;
+}
+.jumbotron h1 {
+  padding: 10px 0;
+  font-size: 35px;
+}
+.jumbotron .lead {
+  font-size: 15px;
+}
+#project {
+  background-color: #ff8f8f1f;
+}
+footer {
+  background-color: #ff8f8f1f;
+  padding: 10px 0;
+}
+#project,
+#contact,
+#about {
+  padding: 3rem;
+}
