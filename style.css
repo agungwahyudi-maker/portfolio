@@ -4,6 +4,8 @@
   background-color: #ff8f8f1f;
   padding-bottom: 100px;
   padding-top: 200px;
+  background-image: url(img/me.jpg);
+  background-attachment: fixed;
 }
 .jumbotron img {
   width: 200px;
@@ -28,4 +30,8 @@ footer {
 #about {
   padding: 3rem;
 }
-.card img
+@media (min-width: 500px) {
+  .nav {
+    border-radius: 0px 20px;
+  }
+}
