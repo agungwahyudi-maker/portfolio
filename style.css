@@ -4,7 +4,7 @@
   background-color: #ff8f8f1f;
   padding-bottom: 100px;
   padding-top: 200px;
-  background-image: url(img/me.jpg);
+  background-color: #ff8f8f1f;
   background-attachment: fixed;
 }
 .jumbotron img {
@@ -18,7 +18,8 @@
 .jumbotron .lead {
   font-size: 15px;
 }
-#project {
+#project,
+#sertifikat {
   background-color: #ff8f8f1f;
 }
 footer {
@@ -30,8 +31,11 @@ footer {
 #about {
   padding: 3rem;
 }
-@media (min-width: 500px) {
-  .nav {
-    border-radius: 0px 20px;
+@media (max-width: 500px) {
+  .navbar {
+    border-radius: 10px;
+  }
+  footer p {
+    font-size: 12px;
   }
 }
